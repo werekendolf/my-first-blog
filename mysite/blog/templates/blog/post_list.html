@@ -3,7 +3,17 @@
         <title>DolfKendolf Blog</title>
     </head>
     <body>
-        <p>Hi there!</p>
-        <p>It works!</p>
+        <div>
+            <h1><a href="/">Kendolf es Dolken</a></h1>
+        </div>
+    {% for post in posts %}
+        <div>
+            
+            {{ post }}
+          
+        
+        </div>
+     {% endfor %}
+        
     </body>
 </html>
